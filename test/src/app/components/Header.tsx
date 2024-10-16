@@ -4,14 +4,24 @@ import img1 from '../img/test.jpg';
 const Header = () => {
   return (
     <>
-      <header className="relative h-72 w-full md:h-96 bg-secondary flex items-center justify-center">
+      <header className="relative h-72 w-full md:h-96 bg-secondary flex flex-col items-center justify-center">
+
         <div className="absolute inset-0">
           <Image src={img1} alt="Background" layout="fill" objectFit="cover" />
         </div>
 
         <div className="absolute inset-0 bg-secondary bg-opacity-70"></div>
 
-        <div className="text-5xl font-script relative z-10">jugon</div>
+        <div className="relative z-10 flex flex-col items-center">
+          <div className="text-6xl md:text-8xl my-3 font-script">jugon</div>
+          <div className="text-4xl md:text-6xl font-script">PORTFOLIO</div>
+        </div>
+
+        <div className="absolute bottom-5 left-auto right-auto z-10 flex flex-row justify-center space-x-10 md:space-x-20">
+          <div className="text-3xl md:text-4xl">works</div>
+          <div className="text-3xl md:text-4xl">skill</div>
+          <div className="text-3xl md:text-4xl">about</div>
+        </div>
       </header>
     </>
   );
