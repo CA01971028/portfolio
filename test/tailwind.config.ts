@@ -15,9 +15,10 @@ const config: Config = {
         accent: '#FF8E72',
         secondary: '#735D58',
       },
-      spacing: {
-        '60p': '60%',
+      fontFamily: {
+        script: ['Dancing Script', 'cursive'], 
       },
+      
     },
   },
   plugins: [],

@@ -4,9 +4,12 @@ import Header from './components/Header'
 
 export default function Home() {
   return (
-    <div className="min-h-screen  bg-base">
-      <Header/>
-      
-    </div>
+    <>
+
+      <body className="h-screen w-full  bg-base">
+        <Header/>
+      </body>
+    </>
+    
   );
 }
