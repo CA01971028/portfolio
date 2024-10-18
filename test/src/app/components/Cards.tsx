@@ -7,7 +7,7 @@ import Tag from './Tag'
 const Cards = () => {
     return (
         <>
-            <h2 className="text-6xl text-center mb-10 text-accent">PROJECT</h2>
+            <h2 className="text-6xl text-center mb-10 text-accent">PRODUCT</h2>
             <div id="card" className="flex flex-wrap justify-center">
                 <div className='w-96 h-auto bg-white mx-3 my-3 rounded-lg flex flex-col'>
                     <Image src={tetris} alt="テトリスの画像" className='h-52 mx-auto rounded-lg' />
