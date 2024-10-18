@@ -18,8 +18,8 @@ const Header = () => {
         </div>
 
         <div className="absolute bottom-5 left-auto right-auto z-10 flex flex-row justify-center space-x-10 md:space-x-20">
-          <a href="https://orange-and-blue-h7fpedvji-ca01971028s-projects.vercel.app/title.html"><div className="text-3xl md:text-4xl">product</div></a>
-          <div className="text-3xl md:text-4xl">skill</div>
+          <a href="/#card"><div className="text-3xl md:text-4xl">product</div></a>
+          <a href="/#skills"><div className="text-3xl md:text-4xl">skill</div></a>
           <div className="text-3xl md:text-4xl">about</div>
         </div>
       </header>

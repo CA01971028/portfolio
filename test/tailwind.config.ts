@@ -14,24 +14,28 @@ const config: Config = {
         base: '#F7E7D1',
         accent: '#FF8E72',
         secondary: '#735D58',
-        html: "#E44D26",         // HTMLイメージカラー
-        css: "#1572B6",          // CSSイメージカラー
-        javascript: "#F7DF1E",   // JavaScriptイメージカラー
-        typescript: "#007ACC",   // TypeScriptイメージカラー
-        python: "#306998",       // Pythonイメージカラー
-        flask: "#6c757d",        // Flaskのグレー
-        react: "#61DAFB",        // Reactイメージカラー
-        nextjs: "#000000",       // Next.jsイメージカラー
-        bootstrap: "#563D7C",    // Bootstrapイメージカラー
-        tailwind: "#38B2AC",     // Tailwind CSSイメージカラー
-        mui: "#1976D2",          // Material-UIイメージカラー
+        html: "#E44D26",
+        css: "#1572B6",
+        javascript: "#F7DF1E",
+        typescript: "#007ACC",
+        python: "#306998",
+        flask: "#6c757d",
+        react: "#61DAFB",
+        nextjs: "#000000",
+        bootstrap: "#563D7C",
+        tailwind: "#38B2AC",
+        mui: "#1976D2",
+        mysql: "#4479A1",
+        mongodb: "#47A248",
+        aws: "#FF9900",  
+        azure: "#0078D4", 
       },
       fontFamily: {
-        script: ['Dancing Script', 'cursive'], 
+        script: ['Dancing Script', 'cursive'],
       },
-      
     },
   },
   plugins: [],
 };
+
 export default config;
