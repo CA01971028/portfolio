@@ -14,7 +14,7 @@ const Header = () => {
 
         <div className="relative z-10 flex flex-col items-center">
           <div className="text-6xl md:text-8xl my-3 font-script">jugon</div>
-          <div className="text-4xl md:text-6xl font-script">PORTFOLIO</div>
+          <div className="text-4xl md:text-6xl ">PORTFOLIO</div>
         </div>
 
         <div className="absolute bottom-5 left-auto right-auto z-10 flex flex-row justify-center space-x-10 md:space-x-20">
