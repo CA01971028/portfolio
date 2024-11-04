@@ -2,8 +2,10 @@ import tetris from '../img/tetris.png';
 import orenge from '../img/orenge.png';
 import trip from '../img/trip.png';
 import hamball from '../img/hamboll.png'
+import Thread from '../img/Thread.png'
 import Image from 'next/image';
 import Tag from './Tag'
+
 const Cards = () => {
     return (
         <>
@@ -57,6 +59,20 @@ const Cards = () => {
                     </div>
                     <div className='text-2xl'>使用言語：フレームワーク</div>
                     <Tag items={['HTML', 'CSS', 'TypeScript', 'Python', 'React', 'Material-UI', 'mysql', 'Flask']} />
+                </div>
+                
+                <div className='w-96 h-auto bg-white mx-3 my-3 rounded-lg flex flex-col'>
+                    <a href="https://gentle-wave-09d109700.5.azurestaticapps.net">
+                    <Image src={Thread} alt="スレッドの画像" className='h-52 mx-auto rounded-lg' />
+                    </a>
+                    <div className='text-4xl text-center font-script'>
+                        <span>THREAD</span>
+                    </div>
+                    <div className='flex-1'>
+                        3回生の時に作成したものでスレッド形式のwebアプリ特徴としては各スレッドに対してコメントをすることができ、新しいスレッドを追加することもできる
+                    </div>
+                    <div className='text-2xl'>使用言語：フレームワーク</div>
+                    <Tag items={['HTML', 'CSS', 'TypeScript',  'React', 'Tailwind CSS','Azure']} />
                 </div>
             </div>
         </>
