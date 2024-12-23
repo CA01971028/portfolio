@@ -86,7 +86,7 @@ const Cards = () => {
                         　3回生の時に作成した作品。３人チームで作成し、私はバックエンド・フロントエンドのフルスタックとしての開発を担当した。ログインでのセッション機能やいいね機能を導入がポイント。また、Azureを利用した作品でもあり、クラウド技術にも精通している。
                     </div>
                     <div className='text-2xl'>使用言語：フレームワーク</div>
-                    <Tag items={['HTML', 'CSS', 'TypeScript',  'Next.js', 'Tailwind CSS','Azure','Vercel']} />
+                    <Tag items={['HTML', 'CSS', 'TypeScript',  'Next.js','Flask', 'Tailwind CSS','Azure','Vercel']} />
                 </div>
             </div>
         </>
