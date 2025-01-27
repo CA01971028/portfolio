@@ -111,7 +111,7 @@ const Cards = () => {
                         <a className='hover:text-blue-600' href="https://github.com/CA01971028/qiita_frontend_dep">Git hubコード(flask)</a>
                     </div>
                     <div className='text-2xl'>使用言語：フレームワーク</div>
-                    <Tag items={['HTML', 'CSS', 'TypeScript',  'Next.js','Flask', 'Tailwind CSS','Azure','Vercel']} />
+                    <Tag items={['HTML', 'CSS', 'TypeScript',  'Next.js','Flask', 'Tailwind CSS','Azure','mysql','Vercel']} />
                 </div>
             </div>
         </>
