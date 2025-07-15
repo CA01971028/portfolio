@@ -31,6 +31,8 @@ const Tag = (props: { items: string[] }) => {
                 return <div key={index} className="text-white px-2 mx-1 py-3 bg-aws rounded-lg my-1">{item}</div>;
             case 'Azure':
                 return <div key={index} className="text-white px-2 mx-1 py-3 bg-azure rounded-lg my-1">{item}</div>;
+            case 'Java':
+                return <div key={index} className="text-white px-2 mx-1 py-3 bg-java rounded-lg my-1">{item}</div>;
             default:
                 return <div key={index} className="text-black px-2 mx-1 py-3 bg-gray-200 rounded-lg my-1">{item}</div>;
         }

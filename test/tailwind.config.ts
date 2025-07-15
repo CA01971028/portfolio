@@ -29,6 +29,7 @@ const config: Config = {
         mongodb: "#47A248",
         aws: "#FF9900",  
         azure: "#0078D4", 
+        java: "#007396"
       },
       fontFamily: {
         script: ['Dancing Script', 'cursive'],
